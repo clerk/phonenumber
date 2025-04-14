@@ -75,6 +75,7 @@ var mobFormatTests = []struct {
 	{"+383 4 555 4999", "XK", "38345554999"},
 	{"+224629295237", "GN", "224629295237"},
 	{"+68989657111", "PF", "68989657111"},
+	{"+959452929499", "MM", "959452929499"},
 }
 
 func TestFormatMobile(t *testing.T) {
@@ -147,6 +148,7 @@ var mobWithLLFormatTests = []struct {
 	{"+383 4 1234999", "XK", "38341234999"},
 	{"+224629295237", "GN", "224629295237"},
 	{"+68989657111", "PF", "68989657111"},
+	{"+959452929499", "MM", "959452929499"},
 }
 
 func TestFormatWithLandLine(t *testing.T) {
@@ -311,6 +313,7 @@ var mobCountryTests = []struct {
 	{"38361234999", "XK", true},
 	{"224629295237", "GN", true},
 	{"68989657111", "PF", true},
+	{"959452929499", "MM", true},
 }
 
 func TestGetCountryForMobileNumber(t *testing.T) {
