@@ -642,6 +642,30 @@ func populateISO3166() {
 	i.PhoneNumberLengths = []int{10, 11}
 	iso3166Datas = append(iso3166Datas, i)
 
+	i.Alpha2 = "IM"
+	i.Alpha3 = "IMN"
+	i.CountryCode = "44"
+	i.CountryName = "Isle of Man"
+	i.MobileBeginWith = []string{"7", "07"}
+	i.PhoneNumberLengths = []int{10, 11}
+	iso3166Datas = append(iso3166Datas, i)
+
+	i.Alpha2 = "GG"
+	i.Alpha3 = "GGY"
+	i.CountryCode = "44"
+	i.CountryName = "Guernsey"
+	i.MobileBeginWith = []string{"7", "07"}
+	i.PhoneNumberLengths = []int{10, 11}
+	iso3166Datas = append(iso3166Datas, i)
+
+	i.Alpha2 = "JE"
+	i.Alpha3 = "JEY"
+	i.CountryCode = "44"
+	i.CountryName = "Jersey"
+	i.MobileBeginWith = []string{"7", "07"}
+	i.PhoneNumberLengths = []int{10, 11}
+	iso3166Datas = append(iso3166Datas, i)
+
 	i.Alpha2 = "GE"
 	i.Alpha3 = "GEO"
 	i.CountryCode = "995"
