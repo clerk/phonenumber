@@ -1586,6 +1586,24 @@ func populateISO3166() {
 	i.PhoneNumberLengths = []int{10}
 	iso3166Datas = append(iso3166Datas, i)
 
+	// Curaçao and the Caribbean Netherlands share +599. Curaçao numbers are
+	// 8 digits and start with 9; Caribbean Netherlands numbers are 7 digits.
+	i.Alpha2 = "CW"
+	i.Alpha3 = "CUW"
+	i.CountryCode = "599"
+	i.CountryName = "Curaçao"
+	i.MobileBeginWith = []string{"95", "96"}
+	i.PhoneNumberLengths = []int{8}
+	iso3166Datas = append(iso3166Datas, i)
+
+	i.Alpha2 = "BQ"
+	i.Alpha3 = "BES"
+	i.CountryCode = "599"
+	i.CountryName = "Caribbean Netherlands"
+	i.MobileBeginWith = []string{"318", "319", "416", "70", "77", "78", "79"}
+	i.PhoneNumberLengths = []int{7}
+	iso3166Datas = append(iso3166Datas, i)
+
 	i.Alpha2 = "PM"
 	i.Alpha3 = "SPM"
 	i.CountryCode = "508"
